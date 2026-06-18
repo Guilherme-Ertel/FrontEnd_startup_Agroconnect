@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+
+--spacing-xs: 0.5rem;
+--spacing-sm: 1rem;
+--spacing-md: 2rem;
+--spacing-lg: 4rem;
+--spacing-xl: 8rem;
+
+
+--color-principal: #1B4332;
+--color-segunda: #2D6A4F;
+--color-cartaoVenda: #40916C;
+--color-preços: #F4D35E;
+--color-fundo: #F5F7F5;
+--color-barras: #66E472;
+--color-preco1: #BBAB2F;
+--color-footer: #FFD6D1;
+--font-ovaldo: "Oswald", sans-serif;
+--font-base: "Inter", sans-serif;
+--font-titulo: "Outfit", sans-serif;
+--font-family: "Archivo Black", sans-serif;
+}
+
+.exemplo-borda {
+  border: 3px solid #136413;
+}
+
+
+.cor-degrade1{
+    background: #224511;
+    background: linear-gradient(90deg, rgba(34, 69, 17, 1) 0%, rgba(48, 196, 22, 1) 25%); /* usei https://cssgradient.io/ */
+}
+
+.archivo-black-regular {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.btn-comprar { 
+    @apply bg-[#035803]
+    text-white
+    
+    py-3
+    px-6
+    rounded-full
+    w-full
+    transition
+    shadow-lg
+    hover:scale-103
+    hover:bg-[#40916C]
+}

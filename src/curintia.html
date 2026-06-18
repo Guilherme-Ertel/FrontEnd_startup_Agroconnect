@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="./output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Outfit:wght@600;800&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="icon" href="img/agro.jpg">
+
+    <title>AgroConnect</title>
+</head>
+
+<body class="bg-fundo text-white">
+
+    <header class="bg-fundo text-white p-6 shadow-lg ">
+        <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+
+            <div class="flex items-center gap-4">
+                <img class="w-20 rounded-xl " src="img/agro.jpg" alt="Logo Agroconnect">
+
+                <div>
+                    <h1 class="font-titulo md:text-4xl sm:text-4xl cor-degrade1">AGROCONNECT </h1>
+                    <p class="text-xl font-light text-black">
+                        Tecnologia conectando produtores
+                    </p>
+                </div>
+            </div>
+            <button class=" md:hidden object-cover btn-comprar mt-4 text-2xl mb-2 ">
+                ☰
+            </button>
+            <nav class="hidden md:block ">
+
+
+
+                
+                <ul class="flex gap-6 font-bold">
+                    <li>
+                        <a href="http://127.0.0.1:5501/src/cadastro.html" class="text-xl text-black hover:text-green-400 transition  ">
+
+                            👤 CONTA
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="text-xl text-black hover:text-green-400 transition">
+                            📍LOCALIZAÇÂO
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="text-xl text-black hover:text-green-400 transition">
+                            🛒CARRINHO
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+
+
+    <div class="grid grid-cols-1 md:grid-cols-6 gap-4 p-4">
+
+        <main class="bg-fundo p-6 md:col-span-6 rounded-2xl text-black ">
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+
+                <div class=" bg-fundo p-6 rounded-2xl text-center shadow-lg btn-comprar hover:scale-105 ">
+                    <a href="http://127.0.0.1:5501/src/cadastro.html" class="text-xl mb-2 font-bold"> 🚚 ENTREGA RÁPIDA </a>
+
+
+                    <p class="text-sm text-green  mt-2">
+                        Produtos chegando direto na sua propriedade.
+                    </p>
+                </div>
+
+                <div class=" bg-fundo p-6 rounded-2xl text-center shadow-lg btn-comprar hover:scale-105">
+                    <a href="http://127.0.0.1:5501/src/cadastro.html" class="text-xl mb-2 font-bold"> 👤 CONTA</a>
+
+
+                    <p class="text-sm text-green mt-2">
+                        Cadastre-se para acessar os melhores produtos.
+                    </p>
+                </div>
+
+                <div class=" bg-fundo p-6 rounded-2xl text-center shadow-lg btn-comprar hover:scale-105">
+                    <p class="mb-2 font-bold text-xl "> CARRINHO 🛒</p>
+
+                
+                    <p class="text-sm text-green mt-2">
+                        Adicione produtos e finalize suas compras.
+                    </p>
+                </div>
+
+            </div>
+
+            <div>
+
+
+
+
+
+
+
+                <div class=" bg-fundo p-4 rounded-xl text-center ">
+
+                    <h2 class="text-3xl md:text-5xl mb-4 font-base ">
+                        Hortaliças
+                    </h2>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 ">
+
+<!-- Alface -->
+                        <div class=" bg-fundo p-4 rounded-xl text-center exemplo-borda hover:scale-105 transition ">
+
+                            <img class="w-full h-48 object-cover rounded-xl mb-4" src="./img/alfacezona.jpg"
+                                alt="Alface">
+
+                            <h3 class="text-4xl font-titulo">
+                                Alface
+                            </h3>
+
+                            <p class="text-xl mt-2 font-base">
+                                Rica em vitaminas e ideal para saladas frescas.
+                            </p>
+
+                            <p class="text-2xl font-ovaldo mt-4 ">
+                                R$ 12,30
+                            </p>
+
+                            <button class="btn-comprar mt-4 text-2xl mb-2 "> 🛒 Compre aqui </button>
+
+
+
+                            <div class="m-4">
+                                <div class="flex justify-between text-sm mb-1 font-bold">
+                                    <span class="">15% vendido</span>
+                                    <span class="font-sans">Restam 85 unidades</span>
+                                </div>
+
+                                <div class="w-full bg-green-900 h-3 rounded-full overflow-hidden">
+                                    <div class="bg-barras h-full w-[15%] rounded-full"></div>
+                                </div>
+                            </div>
+
+                        </div>
+
+<!-- Agrião -->
+                        <div class=" bg-fundo p-4 rounded-xl text-center exemplo-borda hover:scale-105 transition ">
+
+                            <img class="w-full h-48 object-cover rounded-xl mb-4" src="./img/agriao.jpg" alt="Agrião">
+
+                            <h3 class="text-4xl font-titulo">
+                                Agrião
+                            </h3>
+
+                            <p class="text-xl mt-2 font-base">
+                                Hortaliça nutritiva e saudável.
+                            </p>
+
+                            <p class="text-2xl font-ovaldo mt-4 preco1 ">
+                                R$ 11,90
+                            </p>
+                            <button class="btn-comprar mt-4 text-2xl mb-2 "> 🛒 Compre aqui </button>
+
+
+                            <div class="mt-4">
+                                <div class="flex justify-between text-sm mb-1 font-bold">
+                                    <span>38% vendido</span>
+                                    <span>Restam 123 unidades</span>
+                                </div>
+
+                                <div class="w-full bg-green-900 h-3 rounded-full overflow-hidden">
+                                    <div class="bg-barras h-full w-[38%] rounded-full"></div>
+                                </div>
+                            </div>
+
+                        </div>
+
+<!-- Acelga -->
+                        <div class=" bg-fundo p-4 rounded-xl text-center exemplo-borda hover:scale-105 transition">
+
+                            <img class="w-full h-48 object-cover rounded-xl mb-4" src="./img/acelga.jpg" alt="Acelga">
+
+                            <h3 class="text-4xl font-titulo">
+                                Acelga
+                            </h3>
+
+                            <p class="text-xl mt-2 font-base">
+                                Folhosa resistente e nutritiva.
+                            </p>
+
+                            <p class="text-2xl font-ovaldo preco1 mt-4">
+                                R$ 18,40
+                            </p>
+                            <button class="btn-comprar mt-4 text-2xl mb-2 "> 🛒 Compre aqui </button>
+
+
+                            <div class="mt-4">
+                                <div class="flex justify-between text-sm mb-1 font-bold">
+                                    <span>10% vendido</span>
+                                    <span>Restam 90 unidades</span>
+                                </div>
+
+                                <div class="w-full bg-green-900 h-3 rounded-full overflow-hidden">
+                                    <div class="bg-barras h-full w-[10%] rounded-full"></div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+<!-- Cereais -->
+                <div class=" bg-fundo p-4 rounded-xl text-center ">
+
+                    <h2 class="text-3xl md:text-5xl  mb-4 font-base ">
+                        Cereais
+                    </h2>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+
+                        <div class=" bg-fundo p-4 rounded-xl text-center exemplo-borda hover:scale-105 transition ">
+
+                            <img class="w-full h-48 object-cover rounded-xl mb-4" src="./img/arrozcerto.jpg"
+                                alt="Arroz">
+
+                            <h3 class="text-4xl font-titulo ">
+                                Arroz
+                            </h3>
+
+                            <p class="text-xl mt-2 font-base">
+                                Um dos cereais mais consumidos.
+                            </p>
+
+                            <p class="text-2xl font-sans mt-4 preco1">
+                                R$ 12,30
+                            </p>
+                            <button class="btn-comprar mt-4 text-2xl mb-2 "> 🛒 Compre aqui </button>
+
+
+                            <div class="mt-4">
+                                <div class="flex justify-between text-sm mb-1 font-bold">
+                                    <span>45% vendido</span>
+                                    <span>Restam 130 unidades</span>
+                                </div>
+
+                                <div class="w-full bg-green-900 h-3 rounded-full overflow-hidden">
+                                    <div class="bg-barras h-full w-[45%] rounded-full"></div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+<!-- Milho -->
+                        <div class=" bg-fundo p-4 rounded-xl text-center exemplo-borda hover:scale-105 transition ">
+
+                            <img class="w-full h-48 object-cover rounded-xl mb-4" src="./img/milho.jpg" alt="Milho">
+
+                            <h3 class="text-4xl font-titulo ">
+                                Milho
+                            </h3>
+
+                            <p class="text-xl mt-2 font-base">
+                                Muito usado na agricultura.
+                            </p>
+
+                            <p class="text-2xl font-ovaldo mt-4 preco1">
+                                R$ 2,90
+                            </p>
+                            <button class="btn-comprar mt-4 text-2xl mb-2 ">🛒Compre aqui</button>
+
+                            <div class="mt-4">
+                                <div class="flex justify-between text-sm mb-1 font-bold">
+                                    <span>87% vendido</span>
+                                    <span>Restam 12 unidades</span>
+                                </div>
+
+                                <div class="w-full bg-green-900 h-3 rounded-full overflow-hidden">
+                                    <div class="bg-barras h-full w-[87%] rounded-full"></div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+
+<!-- Trigo -->
+                        <div class="bg-fundo p-4 rounded-xl text-center exemplo-borda hover:scale-105 transition  ">
+
+                            <img class="w-full h-48 object-cover rounded-xl mb-4" src="./img/trigocerto.png"
+                                alt="Trigo">
+
+                            <h3 class="text-4xl font-titulo ">
+                                Trigo
+                            </h3>
+
+                            <p class="text-xl mt-2 font-base">
+                                Base para vários alimentos.
+                            </p>
+
+                            <p class="text-2xl font-ovaldo mt-4 preco1">
+                                R$ 9,90
+                            </p>
+                            <button class="btn-comprar mt-4 text-2xl mb-2 "> 🛒Compre aqui </button>
+
+                            <div class="mt-4">
+                                <div class="flex justify-between text-sm mb-1 font-bold">
+                                    <span>27% vendido</span>
+                                    <span>Restam 73 unidades</span>
+                                </div>
+
+                                <div class="w-full bg-green-900 h-3 rounded-full overflow-hidden">
+                                    <div class="bg-barras h-full w-[27%] rounded-full"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+                <div class="bg-fundo p-4 rounded-xl text-center flex flex-col h-full">
+
+                    <h2 class="text-3xl md:text-5xl  mb-4 font-base  ">
+                        Insumos
+                    </h2>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+
+
+                        <!-- Fertilizante-->
+                        <div class=" bg-fundo p-4 rounded-xl text-center exemplo-borda hover:scale-105 transition  ">
+
+                            <img class="w-full h-48 object-cover rounded-xl mb-4" src="./img/fertilizante.jpg"
+                                alt="Fertilizante">
+
+                            <h3 class="text-4xl font-titulo ">
+                                Fertilizante Sólido Sulfato
+                            </h3>
+
+                            <p class="text-xl mt-2 font-base ">
+                                A Araguaia comercializa uma linha completa de fertilizantes.
+                            </p>
+                            <div class="mt-auto">
+                                <p class="text-2xl font-ovaldo mt-4 preco1">
+                                    R$ 75,99
+                                </p>
+                                <button class="btn-comprar mt-4 text-2xl"> 🛒 Compre aqui </button>
+
+
+
+                                <div class="flex justify-between text-sm mb-1 font-bold">
+                                    <span>97% vendido</span>
+                                    <span>Restam 12 unidades</span>
+                                </div>
+
+                                <div class="w-full bg-green-900 h-3 rounded-full overflow-hidden">
+                                    <div class="bg-barras h-full w-[97%] rounded-full"></div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+
+                        <!-- Semente de Soja NEO770 I2X -->
+                        <div
+                            class=" bg-fundo p-4 rounded-xl text-center exemplo-borda hover:scale-105 transition flex flex-col h-full ">
+
+                            <img class="w-full h-48 object-cover rounded-xl mb-4" src="./img/sementeSoja.png"
+                                alt="Sementes">
+
+                            <h3 class="text-4xl  font-titulo">
+                                Semente de Soja NEO770 I2X
+                            </h3>
+
+                            <p class="text-xl mt-2 font-base ">
+                                Sementes Soja NEO770 I2X - Neogen
+                            </p>
+
+                            <div class="mt-4">
+                                <p class="text-2xl font-ovaldo mt-4 preco1">
+                                    R$ 14,99
+                                </p>
+                                <button class="btn-comprar mt-auto text-2xl mb-2"> 🛒 Compre aqui</button>
+
+                                <div class="flex justify-between text-sm mb-1 font-bold">
+                                    <span>38% vendido</span>
+                                    <span>Restam 85 unidades</span>
+                                </div>
+
+                                <div class="w-full bg-green-900 h-3 rounded-full overflow-hidden">
+                                    <div class="bg-barras h-full w-[38%] rounded-full"></div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <!-- Calcário Agrícola DB -->
+                        <div
+                            class=" bg-fundo p-4 rounded-xl text-center exemplo-borda hover:scale-105 transition flex flex-col h-full ">
+
+                            <img class="w-full h-48 object-cover rounded-xl mb-4" src="./img/calcario.jpg"
+                                alt="Calcário">
+
+                            <h3 class="text-4xl font-titulo   ">
+                                Calcário Agrícola DB
+                            </h3>
+
+                            <p class="text-xl mt-2 font-base">
+                                Corrige a acidez do solo.
+                            </p>
+
+                            <p class="text-2xl font-ovaldo mt-4 preco1">
+                                R$ 100,90
+                            </p>
+                            <button class="btn-comprar mt-4 text-2xl mb-2 "> 🛒 Compre aqui</button>
+
+
+
+                            <div class="mt-4">
+                                <div class="flex justify-between text-sm mb-1 font-bold">
+                                    <span>98% vendido</span>
+                                    <span>Restam 2 unidades</span>
+                                </div>
+
+                                <div class="w-full bg-green-900 h-3 rounded-full overflow-hidden">
+                                    <div class="bg-barras h-full w-[98%] rounded-full"></div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+
+                <div class=" bg-fundo p-4 rounded-xl text-center">
+
+                    <h2 class="text-3xl md:text-5xl font-base mb-4">
+                        Químicos
+                    </h2>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+
+                        <div
+                            class=" bg-fundo p-4 rounded-xl text-center exemplo-borda hover:scale-105 transition flex flex-col h-full ">
+
+                            <img class="w-full h-48 object-cover rounded-xl mb-4" src="./img/Herbicidas.jpg"
+                                alt="Herbicida">
+
+                            <h3 class="text-4xl font-titulo ">
+                                Herbicidas Click
+                            </h3>
+
+                            <p class="text-xl mt-2 font-base">
+                                Ação pré-emergente e pós-emergente para a cultura do milho, com excelente controle
+                                sob plantas daninhas de folhas largas e boa supressão de gramíneas.
+                            </p>
+
+                            <p class="text-2xl font-ovaldo mt-4 preco1">
+                                R$ 250,43
+                            </p>
+                            <button class="btn-comprar mt-4 text-2xl mb-2 ">🛒 Compre aqui</button>
+
+
+                            <div class="mt-4">
+                                <div class="flex justify-between text-sm mb-1 font-bold">
+                                    <span>67% vendido</span>
+                                    <span>Restam 20 unidades</span>
+                                </div>
+
+                                <div class="w-full bg-green-900 h-3 rounded-full overflow-hidden">
+                                    <div class="bg-barras h-full w-[67%] rounded-full"></div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div
+                            class=" bg-fundo p-4 rounded-xl text-center exemplo-borda hover:scale-105 transition flex flex-col h-full ">
+
+                            <img class="w-full h-48 object-cover rounded-xl mb-4" src="./img/inseticidas.jpg"
+                                alt="Inseticidas">
+
+                            <h3 class="text-4xl font-titulo">
+                                Inseticida Takumi SC
+                            </h3>
+
+                            <p class="text-xl mt-2 font-base">
+                                Inseticida específico para o manejo de lagartas, inclusive aquelas de difícil
+                                controle
+                            </p>
+
+                            <p class="text-2xl font-ovaldo mt-4 preco1">
+                                R$ 950,40
+                            </p>
+                            <button class="btn-comprar mt-4 text-2xl mb-2 ">🛒 Compre aqui</button>
+
+
+                            <div class="mt-4">
+                                <div class="flex justify-between text-sm mb-1 font-bold">
+                                    <span>49% vendido</span>
+                                    <span>Restam 17 unidades</span>
+                                </div>
+
+                                <div class="w-full bg-green-900 h-3 rounded-full overflow-hidden">
+                                    <div class="bg-barras h-full w-[49%] rounded-full"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class=" bg-fundo p-4 rounded-xl text-center exemplo-borda hover:scale-105 transition flex flex-col h-full ">
+
+                            <img class="w-full h-48 object-cover rounded-xl mb-4" src="./img/fungicidas.jpg"
+                                alt="Fungicida">
+
+                            <h3 class="text-4xl font-titulo">
+                                Fungicida Domark Excell
+                            </h3>
+
+                            <p class="text-xl mt-2 font-base">
+                                Fungicida sistêmico com dois modos de ação para ser usado em aplicações preventivas
+                                no manejo de doenças foliares importantes em diversas culturas.
+                            </p>
+
+                            <p class="text-2xl font-ovaldo mt-4 preco1">
+                                R$ 50,50
+                            </p>
+                            <button class="btn-comprar mt-4 text-2xl mb-2">🛒 Compre aqui</button>
+
+                            <div class="mt-4">
+                                <div class="flex justify-between text-sm mb-1 font-bold">
+                                    <span>46% vendido</span>
+                                    <span>Restam 20 unidades</span>
+                                </div>
+                                <div class="w-full bg-green-900 h-3 rounded-full overflow-hidden">
+                                    <div class="bg-barras h-full w-[46%] rounded-full"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </main>
+
+    </div>
+
+
+
+
+    <footer class="bg-[#035803] text-white mt-16">
+
+        <div class="mx-auto px-8 py-12">
+
+            <div class="grid grid-cols-1 md:grid-cols-5 gap-10">
+
+
+                <div>
+                    <img class="w-24 rounded-xl mb-4" src="img/agro.jpg" alt="Logo AgroConnect">
+                    <h2 class="font-titulo text-2xl">
+                        AGROCONNECT
+                    </h2>
+
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-xl mb-4">
+                        Empresa
+                    </h3>
+
+                    <ul class="text-gray-300 font-sans">
+                        <li><a href="#" class="hover:text-green-400 transition">Página Inicial</a></li>
+                        <li><a href="#" class="hover:text-green-400 transition">Sobre Nós</a></li>
+                        <li><a href="#" class="hover:text-green-400 transition">Produtos</a></li>
+                        <li><a href="#" class="hover:text-green-400 transition">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-xl mb-4">
+                        Serviços
+                    </h3>
+
+                    <ul class=" text-gray-300 font-sans">
+                        <li><a href="#" class="hover:text-green-400 transition">Compras Conjuntas</a></li>
+                        <li><a href="#" class="hover:text-green-400 transition">Marketplace</a></li>
+                        <li><a href="#" class="hover:text-green-400 transition">Cadastro</a></li>
+                        <li><a href="#" class="hover:text-green-400 transition">Carrinho</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-xl mb-4">
+                        Suporte
+                    </h3>
+
+                    <ul class="text-gray-300 font-sans">
+                        <li><a href="#" class="hover:text-green-400 transition">Central de Ajuda</a></li>
+                        <li><a href="#" class="hover:text-green-400 transition">FAQ</a></li>
+                        <li><a href="#" class="hover:text-green-400 transition">Política de Privacidade</a></li>
+                        <li><a href="#" class="hover:text-green-400 transition">Termos de Uso</a></li>
+                    </ul>
+                </div>
+
+                <div class="flex flex-col justify-items-end gap-9 font-sans">
+                    <p class="text-gray-300 text-lg ">
+                        📍Chapecó - SC
+                    </p>
+                    <p class="text-gray-300 text-lg">
+                         ☎️ (46) 999173836    
+                    </p>
+                    <p class="text-gray-300 text-lg">
+                         📧 contato@agroconnect.com
+                    </p>
+                </div>
+
+            </div>
+
+
+
+            <div class="flex flex-col justify-between items-center gap-4 text-sm text-gray-400">
+
+                <p>
+                    © 2026 AgroConnect. Todos os direitos reservados.
+                </p>
+                <p>
+                    Desenvolvido para conectar produtores rurais.
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+</body>
+
+<!-- alterar imagens -->
+<!-- colocar coisas nas spans -->
+<!-- criar um site para o login -->
+
+
+</html>
