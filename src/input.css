@@ -23,6 +23,20 @@
 --font-family: "Archivo Black", sans-serif;
 }
 
+/* https://github.com/Guilherme-Ertel/FrontEnd_startup_Agroconnect.git
+
+echo "# FrontEnd_startup_Agroconnect" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Guilherme-Ertel/FrontEnd_startup_Agroconnect.git
+git push -u origin main
+
+git remote add origin https://github.com/Guilherme-Ertel/FrontEnd_startup_Agroconnect.git
+git branch -M main
+git push -u origin main */
+
 .exemplo-borda {
   border: 3px solid #136413;
 }
