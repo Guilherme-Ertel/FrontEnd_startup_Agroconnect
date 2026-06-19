@@ -1,13 +1,200 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TODOS OS CODIGOS</title>
+    <title>Guia Básico Git</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+            line-height: 1.6;
+        }
+
+        h1 {
+            text-align: center;
+            color: #e84d31;
+        }
+
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #e84d31;
+            padding-bottom: 5px;
+        }
+
+        .comando {
+            background: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-left: 5px solid #e84d31;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        code {
+            background: #222;
+            color: #00ff88;
+            display: block;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 5px;
+            font-family: Consolas, monospace;
+        }
+    </style>
 </head>
 <body>
-    <h4>TODOS OS CODIGOS GIT EM UM SITE</h4>
-    <h1> quase todos na verdade</h1>
-    <h2>alterando codigos</h2>
+
+    <h1>🚀 Guia Básico de Comandos Git</h1>
+
+    <h2>Configuração Inicial</h2>
+
+    <div class="comando">
+        Configurar nome do usuário
+        <code>git config --global user.name "Seu Nome"</code>
+    </div>
+
+    <div class="comando">
+        Configurar e-mail
+        <code>git config --global user.email "seu@email.com"</code>
+    </div>
+
+    <div class="comando">
+        Ver configurações
+        <code>git config --list</code>
+    </div>
+
+    <h2>Criar e Clonar Repositórios</h2>
+
+    <div class="comando">
+        Iniciar repositório Git
+        <code>git init</code>
+    </div>
+
+    <div class="comando">
+        Clonar repositório
+        <code>git clone URL_DO_REPOSITORIO</code>
+    </div>
+
+    <h2>Trabalhando com Arquivos</h2>
+
+    <div class="comando">
+        Ver status dos arquivos
+        <code>git status</code>
+    </div>
+
+    <div class="comando">
+        Adicionar arquivo específico
+        <code>git add arquivo.txt</code>
+    </div>
+
+    <div class="comando">
+        Adicionar todos os arquivos
+        <code>git add .</code>
+    </div>
+
+    <div class="comando">
+        Criar commit
+        <code>git commit -m "Mensagem do commit"</code>
+    </div>
+
+    <div class="comando">
+        Ver histórico de commits
+        <code>git log</code>
+    </div>
+
+    <div class="comando">
+        Histórico resumido
+        <code>git log --oneline</code>
+    </div>
+
+    <h2>Branches</h2>
+
+    <div class="comando">
+        Listar branches
+        <code>git branch</code>
+    </div>
+
+    <div class="comando">
+        Criar branch
+        <code>git branch nova-branch</code>
+    </div>
+
+    <div class="comando">
+        Trocar de branch
+        <code>git checkout nome-branch</code>
+    </div>
+
+    <div class="comando">
+        Criar e trocar de branch
+        <code>git checkout -b nova-branch</code>
+    </div>
+
+    <div class="comando">
+        Mesclar branch
+        <code>git merge nome-branch</code>
+    </div>
+
+    <h2>GitHub</h2>
+
+    <div class="comando">
+        Conectar repositório remoto
+        <code>git remote add origin URL</code>
+    </div>
+
+    <div class="comando">
+        Enviar para o GitHub
+        <code>git push -u origin main</code>
+    </div>
+
+    <div class="comando">
+        Enviar alterações
+        <code>git push</code>
+    </div>
+
+    <div class="comando">
+        Baixar alterações
+        <code>git pull</code>
+    </div>
+
+    <div class="comando">
+        Buscar alterações sem baixar
+        <code>git fetch</code>
+    </div>
+
+    <h2>Desfazer Alterações</h2>
+
+    <div class="comando">
+        Remover arquivo da área de stage
+        <code>git reset arquivo.txt</code>
+    </div>
+
+    <div class="comando">
+        Voltar ao último commit
+        <code>git reset --hard HEAD</code>
+    </div>
+
+    <div class="comando">
+        Reverter commit
+        <code>git revert ID_DO_COMMIT</code>
+    </div>
+
+    <h2>Informações Extras</h2>
+
+    <div class="comando">
+        Ver repositórios remotos
+        <code>git remote -v</code>
+    </div>
+
+    <div class="comando">
+        Ver diferenças
+        <code>git diff</code>
+    </div>
+
+    <div class="comando">
+        Ver ajuda
+        <code>git help</code>
+    </div>
+
 </body>
 </html>
