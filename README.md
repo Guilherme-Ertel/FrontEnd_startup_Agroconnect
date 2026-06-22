@@ -1,73 +1,92 @@
-<h1>AgroConnect</h1> 
+# 🌱 AgroConnect
+
+> **Status do Projeto:** 🚧 Em desenvolvimento
+
+## 📖 Sobre o Projeto
+
+O AgroConnect é uma plataforma desenvolvida para facilitar a compra coletiva de produtos agrícolas entre pequenos e médios produtores rurais.
+
+A proposta surgiu a partir da observação de que muitos produtores realizam suas compras de forma individual, o que frequentemente resulta em custos mais elevados. O sistema busca conectar produtores com interesses de compra semelhantes, permitindo que realizem aquisições conjuntas e obtenham melhores condições comerciais.
+
+Por meio da plataforma, os usuários poderão registrar interesse em produtos agrícolas e insumos rurais. O sistema identificará interesses em comum e promoverá a comunicação entre os produtores, incentivando compras colaborativas.
+
+## 🎯 Objetivos
+
+* Reduzir custos de aquisição de produtos rurais;
+* Facilitar o acesso à compra e venda de produtos agrícolas;
+* Promover a comunicação entre pequenos e médios produtores;
+* Incentivar compras coletivas;
+* Divulgar promoções e oportunidades de mercado.
+
+## 🚀 Tecnologias Utilizadas
+
+* HTML5
+* Tailwind CSS
+* Node.js
+
+## ⚙️ Requisitos
+
+Antes de iniciar, instale:
+
+* Node.js
+* Tailwind CSS
+* Visual Studio Code
+
+## ▶️ Como Executar o Projeto
+
+Clone o repositório:
 
 
-
-> Status do Projeto: :heavy_check_mark: :warning: Em desenvolvimento
-
-
-
-## Descrição do projeto 
-
-<p align="justify">
-  Minha pesquisa está vinculada a uma pequena startup do agronegócio, com foco em facilitar a compra de produtos por pequenos e médios produtores agrícolas. O público-alvo da proposta são pequenos e médios proprietários que possuem interesse em baratear seus custos com compras online. Atualmente, observo que esses produtores realizam compras de forma individual, o que eleva os custos e pode tornar os produtos mais caros.
-Teremos como objetivo facilitar a comunicação de interesses de compra entre os proprietários agrícolas. Trazendo como uma solução, o desenvolvimento de uma plataforma na qual os usuários possam registrar interesse em determinados produtos. 
-A partir disso, o sistema terá como objetivo identificar interesses em comum entre os produtores. Dessa forma, eles poderão visualizar interesses similares e, possivelmente, realizar compras conjuntas, tanto de produtos como milho quanto de itens específicos para suas propriedades.
-
-  
-</p>
-
-## Funcionalidades
-
-:heavy_check_mark: Baratear produtos 
-
-:heavy_check_mark: Facilitar o acesso de compra e venda
-
-:heavy_check_mark: Comunicação entre os pequenos e medios proprietarios 
-
-:heavy_check_mark: Compra conjunta de produtos rurais
-
-:heavy_check_mark: Cadastro e promoções
-
-
-
-## Requisitos 
-
-:warning: [Node](https://nodejs.org/en/download/)
-:warning: [TailWind](https://tailwindcss.com/docs/installation/using-vite)
-:warning: [VScode](https://code.visualstudio.com/Download?_exp_download=fb315fc982)
-
-
-## Como rodar a aplicação :arrow_forward:
-
-No terminal, clone o projeto: 
-
-```
 git clone https://github.com/Guilherme-Ertel/FrontEnd_startup_Agroconnect.git
 ```
+Acesse a pasta do projeto:
 
-
-
-## Como rodar os testes
-
-Coloque um passo a passo para executar os testes
-
+cd FrontEnd_startup_Agroconnect
 ```
-$ npm create vite@latest my-project (terminal)
-$ cd my-project (terminal)
-$ npm install tailwindcss @tailwindcss/vite (terminal)
-$ @import "tailwindcss"; (CSS)
-$ npm run dev (terminal)
+```
+Instale as dependências:
+
+npm install
+```
+```
+Execute o projeto:
+npm run dev
+```
+
+## 📚 Configuração do Tailwind CSS
+
+```bash
+npm create vite@latest my-project
+cd my-project
+npm install tailwindcss @tailwindcss/vite
+npm run dev
+```
+
+No arquivo CSS principal:
+
+```css
+@import "tailwindcss";
 ```
 
 
 
-## Desenvolvedor
+## 🔮 Funcionalidades Futuras
 
+* Sistema de login e cadastro;
+* Perfil do produtor;
+* Chat entre produtores;
+* Busca de produtos;
+* Sistema de interesses compartilhados;
+* Notificações de oportunidades de compra coletiva.
 
-| [<img src="" width=115><br><sub>Guikherme Ertel</sub>](https://github.com/Diana-ops) </img>
+## 👨‍💻 Desenvolvedor
 
-## Licença 
+**Guilherme Ertel**
 
-The [MIT License]() (MIT)
+* GitHub: https://github.com/Guilherme-Ertel
+* Curso: Ciência da Computação
+* Instituição: UFFS - Campus Chapecó
 
-Copyright :copyright: Ano - Titulo do Projeto
+## 📄 Licença
+
+Este projeto está licenciado sob a Licença MIT.
