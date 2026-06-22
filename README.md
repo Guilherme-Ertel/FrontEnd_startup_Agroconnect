@@ -1,16 +1,12 @@
-# 🌱 AgroConnect
+#  AgroConnect
 
 > **Status do Projeto:** 🚧 Em desenvolvimento
 
-## 📖 Sobre o Projeto
+##  Sobre o Projeto
 
-O AgroConnect é uma plataforma desenvolvida para facilitar a compra coletiva de produtos agrícolas entre pequenos e médios produtores rurais.
+O AgroConnect é uma plataforma desenvolvida para facilitar a compra coletiva de produtos agrícolas entre pequenos e médios produtores rurais.A proposta surgiu a partir da observação de que muitos produtores realizam suas compras de forma individual, o que frequentemente resulta em custos mais elevados. O sistema busca conectar produtores com interesses de compra semelhantes, permitindo que realizem aquisições conjuntas e obtenham melhores condições comerciais. Por meio da plataforma, os usuários poderão registrar interesse em produtos agrícolas e insumos rurais. O sistema identificará interesses em comum e promoverá a comunicação entre os produtores, incentivando compras colaborativas.
 
-A proposta surgiu a partir da observação de que muitos produtores realizam suas compras de forma individual, o que frequentemente resulta em custos mais elevados. O sistema busca conectar produtores com interesses de compra semelhantes, permitindo que realizem aquisições conjuntas e obtenham melhores condições comerciais.
-
-Por meio da plataforma, os usuários poderão registrar interesse em produtos agrícolas e insumos rurais. O sistema identificará interesses em comum e promoverá a comunicação entre os produtores, incentivando compras colaborativas.
-
-## 🎯 Objetivos
+##  Objetivos
 
 * Reduzir custos de aquisição de produtos rurais;
 * Facilitar o acesso à compra e venda de produtos agrícolas;
@@ -18,7 +14,7 @@ Por meio da plataforma, os usuários poderão registrar interesse em produtos ag
 * Incentivar compras coletivas;
 * Divulgar promoções e oportunidades de mercado.
 
-## 🚀 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 * HTML5
 * Tailwind CSS
@@ -32,14 +28,14 @@ Antes de iniciar, instale:
 * Tailwind CSS
 * Visual Studio Code
 
-## ▶️ Como Executar o Projeto
+##  Como Executar o Projeto
 
 Clone o repositório:
 
 
 git clone https://github.com/Guilherme-Ertel/FrontEnd_startup_Agroconnect.git
 ```
-Acesse a pasta do projeto:
+Acesse a pasta do projeto
 
 cd FrontEnd_startup_Agroconnect
 ```
@@ -70,7 +66,7 @@ No arquivo CSS principal:
 
 
 
-## 🔮 Funcionalidades Futuras
+##  Funcionalidades Futuras
 
 * Sistema de login e cadastro;
 * Perfil do produtor;
@@ -79,7 +75,7 @@ No arquivo CSS principal:
 * Sistema de interesses compartilhados;
 * Notificações de oportunidades de compra coletiva.
 
-## 👨‍💻 Desenvolvedor
+##  Desenvolvedor
 
 **Guilherme Ertel**
 
@@ -87,6 +83,6 @@ No arquivo CSS principal:
 * Curso: Ciência da Computação
 * Instituição: UFFS - Campus Chapecó
 
-## 📄 Licença
+##  Licença
 
 Este projeto está licenciado sob a Licença MIT.
