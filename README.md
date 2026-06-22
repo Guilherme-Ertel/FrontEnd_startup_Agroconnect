@@ -20,7 +20,7 @@ O AgroConnect é uma plataforma desenvolvida para facilitar a compra coletiva de
 * Tailwind CSS
 * Node.js
 
-## ⚙️ Requisitos
+##  Requisitos
 
 Antes de iniciar, instale:
 
