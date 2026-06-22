@@ -49,7 +49,7 @@ Execute o projeto:
 npm run dev
 ```
 
-## 📚 Configuração do Tailwind CSS
+##  Configuração do Tailwind CSS
 
 ```bash
 npm create vite@latest my-project
