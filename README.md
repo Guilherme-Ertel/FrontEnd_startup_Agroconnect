@@ -33,8 +33,8 @@ A partir disso, o sistema terá como objetivo identificar interesses em comum en
 ## Requisitos 
 
 :warning: [Node](https://nodejs.org/en/download/)
-:warning: [Node](https://tailwindcss.com/docs/installation/using-vite)
-:warning: [Node](https://code.visualstudio.com/Download?_exp_download=fb315fc982)
+:warning: [TailWind](https://tailwindcss.com/docs/installation/using-vite)
+:warning: [VScode](https://code.visualstudio.com/Download?_exp_download=fb315fc982)
 
 
 ## Como rodar a aplicação :arrow_forward:
@@ -53,10 +53,10 @@ Coloque um passo a passo para executar os testes
 
 ```
 $ npm create vite@latest my-project (terminal)
-cd my-project (terminal)
-npm install tailwindcss @tailwindcss/vite (terminal)
-@import "tailwindcss"; (CSS)
-npm run dev (terminal)
+$ cd my-project (terminal)
+$ npm install tailwindcss @tailwindcss/vite (terminal)
+$ @import "tailwindcss"; (CSS)
+$ npm run dev (terminal)
 ```
 
 
