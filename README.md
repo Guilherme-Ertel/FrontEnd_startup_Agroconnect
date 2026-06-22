@@ -4,7 +4,7 @@
 
 ##  Sobre o Projeto
 
-O AgroConnect é uma plataforma desenvolvida para facilitar a compra coletiva de produtos agrícolas entre pequenos e médios produtores rurais.A proposta surgiu a partir da observação de que muitos produtores realizam suas compras de forma individual, o que frequentemente resulta em custos mais elevados. O sistema busca conectar produtores com interesses de compra semelhantes, permitindo que realizem aquisições conjuntas e obtenham melhores condições comerciais. Por meio da plataforma, os usuários poderão registrar interesse em produtos agrícolas e insumos rurais. O sistema identificará interesses em comum e promoverá a comunicação entre os produtores, incentivando compras colaborativas.
+O AgroConnect é uma plataforma desenvolvida para facilitar a compra coletiva de produtos agrícolas entre pequenos e médios produtores rurais. A proposta surgiu a partir da observação de que muitos produtores realizam suas compras de forma individual, o que frequentemente resulta em custos mais elevados. O sistema busca conectar produtores com interesses de compra semelhantes, permitindo que realizem aquisições conjuntas e obtenham melhores condições comerciais. Por meio da plataforma, os usuários poderão registrar interesse em produtos agrícolas e insumos rurais. O sistema identificará interesses em comum e promoverá a comunicação entre os produtores, incentivando compras colaborativas.
 
 ##  Objetivos
 
