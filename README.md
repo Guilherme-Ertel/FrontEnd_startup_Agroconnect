@@ -1,33 +1,10 @@
 <h1>AgroConnect</h1> 
 
-<p align="center">
-  <img src="https://img.shields.io/static/v1?label=react&message=framework&color=blue&style=for-the-badge&logo=REACT"/>
-  <img src="https://img.shields.io/static/v1?label=Netlify&message=deploy&color=blue&style=for-the-badge&logo=netlify"/>
-  <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/>
-  <img src="http://img.shields.io/static/v1?label=Ruby&message=2.6.3&color=red&style=for-the-badge&logo=ruby"/>
-  <img src="http://img.shields.io/static/v1?label=Ruby%20On%20Rails%20&message=6.0.2.2&color=red&style=for-the-badge&logo=ruby"/>
-  <img src="http://img.shields.io/static/v1?label=TESTES&message=%3E100&color=GREEN&style=for-the-badge"/>
-   <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
-   <img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
-</p>
+
 
 > Status do Projeto: :heavy_check_mark: :warning: Em desenvolvimento
 
-### Tópicos 
 
-:small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
-
-:small_blue_diamond: [Funcionalidades](#funcionalidades)
-
-:small_blue_diamond: [Deploy da Aplicação](#deploy-da-aplicação-dash)
-
-:small_blue_diamond: [Pré-requisitos](#pré-requisitos)
-
-:small_blue_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
-
-... 
-
-Insira os tópicos do README em links para facilitar a navegação do leitor
 
 ## Descrição do projeto 
 
@@ -41,29 +18,24 @@ A partir disso, o sistema terá como objetivo identificar interesses em comum en
 
 ## Funcionalidades
 
-:heavy_check_mark: Funcionalidade 1  
+:heavy_check_mark: Baratear produtos 
 
-:heavy_check_mark: Funcionalidade 2  
+:heavy_check_mark: Facilitar o acesso de compra e venda
 
-:heavy_check_mark: Funcionalidade 3  
+:heavy_check_mark: Comunicação entre os pequenos e medios proprietarios 
 
-:heavy_check_mark: Funcionalidade 4  
+:heavy_check_mark: Compra conjunta de produtos rurais
 
-## Layout ou Deploy da Aplicação :dash:
+:heavy_check_mark: Cadastro e promoções
 
-> Link do deploy da aplicação. Exemplo com netlify: https://certificates-for-everyone-womakerscode.netlify.app/
 
-... 
 
-Se ainda não houver deploy, insira capturas de tela da aplicação ou gifs
-
-## Pré-requisitos
+## Requisitos 
 
 :warning: [Node](https://nodejs.org/en/download/)
+:warning: [Node](https://tailwindcss.com/docs/installation/using-vite)
+:warning: [Node](https://code.visualstudio.com/Download?_exp_download=fb315fc982)
 
-...
-
-Liste todas as dependencias e libs que o usuário deve ter instalado na máquina antes de rodar a aplicação 
 
 ## Como rodar a aplicação :arrow_forward:
 
@@ -73,9 +45,7 @@ No terminal, clone o projeto:
 git clone https://github.com/React-Bootcamp-WoMarkersCode/certificate-generator
 ```
 
-... 
 
-Coloque um passo a passo para rodar a sua aplicação. **Dica: clone o próprio projeto e verfique se o passo a passo funciona**
 
 ## Como rodar os testes
 
